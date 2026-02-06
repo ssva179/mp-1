@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <title> Projects | Stephanie's Resume </title>
+
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header>
+        <h1> Stephanie's Resume</h1>
+        <p> Welcome to my online portfolio!</p>
+      </header>
+      <div id="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="certs.html">Certifications</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="activities.html">Activities</a></li>
+          </ul>
+        </nav>
+        <main>
+          <div id="pages-main">
+            <h3> Projects</h3>
+            <p><strong><em>Talking Cents </em></strong> October 2025 - Present</p>
+              <ul>
+                <li>
+                  Developed AI-powered budgeting assistance that uses GPT API calls to categorize spending and track balance via
+                  speech and chat.
+                </li>
+                <li>
+                  Integrated speech recognition, text-to-speech, and React/Node.js, for real-time conversation budgeting and
+                  debt-analysis
+                </li>
+              </ul>
+            <p><strong><em>AI Studio Fake News Detection System</em></strong> September 2025- December 2025</p>
+              <ul>
+                <li>
+                  Built and evaluated a fake news classification system using Logistic Regression, a fine-tuned DeBERTa
+                  transformer, and an LLM based approach.
+                </li>
+                <li>
+                  Compared model performance using accuracy and F1 score to analyze generalization across models.
+                </li>
+                <li>
+                  Developed a Streamlit demo and presented results to industry professionals.
+                </li>
+              </ul>
+              <p> <strong><em>Concert Booking Service</em></strong> March 2025 – May 2025</p>
+              <ul>
+                <li>
+                  Designed 16 RESTful endpoints for reservations, seat availability, and user authentication
+                </li>
+                <li>
+                  Built a backend concert booking system in a 2-person team using Java and JPA
+                </li>
+                <li>
+                  Implemented concurrency control using pessimistic and optimistic locking.
+                </li>
+              </ul>
+            </div>
+            <div id="projects-calc">
+              <h3> Steph's Number Lab</h3>
+              <!--My two input boxes-->
+              <label for="first-number">First Number:</label>
+              <input type="text" id="first-number">
+              <label for="second-number">Second Number:</label>
+              <input type="text" id="second-number">
+              <!--My 6 math operation buttons-->
+              <button onclick="addition()"> + </button>
+              <button onclick="subtraction()"> - </button>
+              <button onclick="multiplication()"> * </button>
+              <button onclick="division()"> / </button>
+              <button onclick="power()"> ** </button>
+              <button onclick="clearC()"> Clear </button>
+              <!--Output field-->
+              <h3 id="output"></h3>
+            </div>
+         </main>
+      </div>
+      <footer>
+        <p>All rights reserved by Stephanie Argueta <a href="">Credits</a> &#169;</p>
+      </footer>
+    </div>
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
